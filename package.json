@@ -1,0 +1,30 @@
+{
+  "name": "sdejs",
+  "description": "A Template fork from ejs and then modify to fit with seedit",
+  "version": "0.0.1",
+  "author": {
+    "name": "dao",
+    "email": "yyydao11@gmail.com"
+  },
+  "keywords": [
+    "template",
+    "engine"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "./lib/sdejs.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yyydao/sdejs.git"
+  },
+  "scripts": {
+    "test": "mocha --require should --reporter spec"
+  },
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/yyydao/sdejs/issues"
+  },
+  "homepage": "https://github.com/yyydao/sdejs"
+}
